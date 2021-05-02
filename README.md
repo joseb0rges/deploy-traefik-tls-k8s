@@ -8,11 +8,11 @@
  >  --cert=path/to/cert/file \
  >  --key=path/to/key/file
 
-* **Obs.:** Substitua o nome do seu secret com mesmo presente no seu arquivo yaml no paramentro **secretName***
+* **Obs.:** Substitua o nome do seu secret com mesmo presente no seu arquivo yaml no paramentro **secretName**
 
 ## Realize o deploy informando o namespace
 
 > kubectl apply -f ./ -n kube-system
 
 
-* **Obs.:** Acesse o traefik com o **FQDN** definido no arquivo ingress_service.yaml*
+* **Obs.:** Acesse o traefik com o **FQDN** definido no arquivo ingress_service.yaml
